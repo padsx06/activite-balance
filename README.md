@@ -30,3 +30,10 @@ Si l'ENT accepte les iframes, utiliser :
 ```html
 <iframe src="https://TON_PSEUDO.github.io/activite-balance/" width="100%" height="800" style="border:0;border-radius:12px;" allowfullscreen></iframe>
 ```
+
+
+## Version avec raisonnement écrit
+
+Cette version ajoute, pour chaque défi où l’élève doit trouver une masse inconnue, une zone « Mon raisonnement ». Les textes saisis sont sauvegardés localement dans le navigateur de l’élève grâce au localStorage. Le bouton « Télécharger mes réponses » permet d’exporter un fichier texte contenant les valeurs saisies et les raisonnements.
+
+Important : GitHub Pages est un hébergement statique. Il n’envoie pas automatiquement les réponses au professeur. Pour récupérer les raisonnements, demander aux élèves de télécharger le fichier de traces puis de le déposer dans l’ENT.
